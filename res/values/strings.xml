@@ -44,13 +44,16 @@
     <string name="signup">Sign Up</string>
     <string name="signin">Sign In</string>
     <string name="exit">Exit</string>
-  <string name="security_question">Security Question</string> 
- <string-array name="security_arrays">
-     <item >select question</item>
-  <item>Your First Phone no</item> 
-  <item>Your First Friend</item> 
-  </string-array> 
-  <string name="menuu">Menu</string> 
-  <string name="everydaydailyoffer">Everyday Daily Offer</string>
-    
+    <string name="security_question">Security Question</string>
+
+    <string-array name="security_arrays">
+        <item>select question</item>
+        <item>Your First Phone no</item>
+        <item>Your First Friend</item>
+    </string-array>
+
+    <string name="menuu">Menu</string>
+    <string name="everydaydailyoffer">Everyday Daily Offer</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
 </resources>

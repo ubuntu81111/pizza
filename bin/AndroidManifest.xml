@@ -49,16 +49,22 @@
             android:name="com.example.registrationdetails.UpdateActivity"
             android:label="@string/title_activity_update" >
         </activity>
-        <activity android:name="SplashScreen">
+        <activity android:name="com.example.registrationdetails.SplashScreen" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="PageOne"
-             android:label="@layout/activity_page_one">
+        <activity
+            android:name="com.example.registrationdetails.PageOne"
+            android:label="@layout/activity_page_one" >
             <intent-filter>
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.MenuActivity"
+            android:label="@string/title_activity_menu" >
         </activity>
     </application>
 

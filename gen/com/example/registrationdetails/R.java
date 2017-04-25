@@ -41,8 +41,8 @@ public final class R {
         public static final int Register_first=0x7f09000f;
         public static final int Sq_first=0x7f09000d;
         public static final int action_settings=0x7f09001b;
-        public static final int button1=0x7f09001a;
         public static final int editText1=0x7f090011;
+        public static final int everydayoffer=0x7f09001a;
         public static final int exit=0x7f090014;
         public static final int forgotpass=0x7f090018;
         public static final int menu=0x7f090019;
@@ -64,10 +64,11 @@ public final class R {
         public static final int activity_forget1=0x7f030001;
         public static final int activity_forget2=0x7f030002;
         public static final int activity_main=0x7f030003;
-        public static final int activity_page_one=0x7f030004;
-        public static final int activity_secnd=0x7f030005;
-        public static final int activity_splash_screen=0x7f030006;
-        public static final int activity_third=0x7f030007;
+        public static final int activity_menu=0x7f030004;
+        public static final int activity_page_one=0x7f030005;
+        public static final int activity_secnd=0x7f030006;
+        public static final int activity_splash_screen=0x7f030007;
+        public static final int activity_third=0x7f030008;
     }
     public static final class menu {
         public static final int del=0x7f080000;
@@ -76,9 +77,10 @@ public final class R {
         public static final int forget1=0x7f080003;
         public static final int forget2=0x7f080004;
         public static final int main=0x7f080005;
-        public static final int secnd=0x7f080006;
-        public static final int third=0x7f080007;
-        public static final int update=0x7f080008;
+        public static final int menu=0x7f080006;
+        public static final int secnd=0x7f080007;
+        public static final int third=0x7f080008;
+        public static final int update=0x7f080009;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -120,6 +122,7 @@ public final class R {
         public static final int title_activity_forget=0x7f050015;
         public static final int title_activity_forget1=0x7f050018;
         public static final int title_activity_forget2=0x7f05001c;
+        public static final int title_activity_menu=0x7f05002e;
         public static final int title_activity_secnd=0x7f05000a;
         public static final int title_activity_third=0x7f05000f;
         public static final int title_activity_update=0x7f050022;
