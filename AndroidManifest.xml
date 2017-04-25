@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.registrationdetails"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pizzabackground"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.registrationdetails.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.SecndActivity"
+            android:label="@string/title_activity_secnd" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.FailActivity"
+            android:label="@string/title_activity_fail" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.DelActivity"
+            android:label="@string/title_activity_del" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.ForgetActivity"
+            android:label="@string/title_activity_forget" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.Forget1Activity"
+            android:label="@string/title_activity_forget1" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.Forget2Activity"
+            android:label="@string/title_activity_forget2" >
+        </activity>
+        <activity
+            android:name="com.example.registrationdetails.UpdateActivity"
+            android:label="@string/title_activity_update" >
+        </activity>
+        <activity android:name="SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="PageOne"
+             android:label="@layout/activity_page_one">
+            <intent-filter>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
